@@ -18,7 +18,7 @@ int main(void)
 void num1(void)
 {
 	char c1 = 'a';
-	const char* s1 = "Hello";
+	char* s1 = "Hello";
 
 	printf("%c\n", c1);
 	printf("%s\n", s1);
@@ -26,7 +26,7 @@ void num1(void)
 
 void num2(void)
 {
-	const char* s1 = "Hello";
+	char* s1 = "Hello";
 
 	printf("%c\n", s1[1]);
 	printf("%c\n", s1[4]);
