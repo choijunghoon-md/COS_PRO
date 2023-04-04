@@ -31,7 +31,7 @@ int main(void){
 	int scores_len = 8;
 	int *solut = (int*)malloc(sizeof(int)* 5);
 	solut = solution(scores, scores_len);
-	printf("°á°ú : ");
+	printf("ê²°ê³¼ : ");
 	for (int i = 0; i < 5; i++){
 		printf(" %d ", solut[i]);
 	}
