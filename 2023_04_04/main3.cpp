@@ -45,5 +45,5 @@ int main(void){
 	int n = 5;
 	int solut;
 	solut = solution(visitor, n);
-	printf("°á°ú %d\n", solut);
+	printf("ê²°ê³¼ %d\n", solut);
 }
