@@ -38,6 +38,6 @@ int fun_b(int s[], int size){
 		int scores_len = 5;
 		int solution1;
 		solution1 = solution(scores, scores_len);
-		printf("°á°ú : %d\n", solution1);
+		printf("ê²°ê³¼ : %d\n", solution1);
 	}
 
