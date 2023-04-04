@@ -19,5 +19,5 @@ int main(void){
 	int stones_len = 6;
 	int solut;
 	solut = solution(stones, stones_len);
-	printf("°á°ú %d \n", solut);
+	printf("ê²°ê³¼ %d \n", solut);
 }
