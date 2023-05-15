@@ -11,8 +11,8 @@ typedef struct Student {
 int compare(const void* a, const void* b) {
 	Student frist = *(Student*)a;
 	Student second = *(Student*)a;
-	if (frist.score > second.score) return 1;
-	else if (frist.score < second.score) return -1;
+	if (frist.score > second.score) return -1;
+	else if (frist.score < second.score) return 1;
 	else return 0;
 }
 
@@ -35,7 +35,7 @@ int main() {
 	int k = 2;
 	char* ret = solution(names,names_len,scores,scores_len,k);
 
-	printf("solution �Լ��� ��ȯ ���� %s �Դϴ�.\n", ret);
+	printf("solution ÇÔ¼öÀÇ º¯È¯ °ªÀº %s ÀÔ´Ï´Ù.\n", ret);
 
 	return 0;
 }
